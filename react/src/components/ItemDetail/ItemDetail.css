@@ -1,0 +1,20 @@
+.imagenDetallada {
+    width: 200px;
+    margin: 45px;
+}
+
+.nombreDetallado {
+    margin: 20px;
+    font-size: xx-large;
+    color: rgb(64, 226, 43);
+}
+
+.descripcionDetallada{
+    font-size: x-large;
+    margin: 20px;
+}
+
+.precioDetallado {
+    font-size: xx-large;
+    margin-left: 30px;
+}
