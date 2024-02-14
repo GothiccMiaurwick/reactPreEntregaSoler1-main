@@ -1,6 +1,5 @@
 const productos = [
   {
-    id: 1,
     nombre: "Semillas de Ajo",
     imagen: "../public/img/Semillas_de_ajo.png",
     descripcion: "Añade un toque punzante y maravilloso a los platos.",
@@ -8,7 +7,6 @@ const productos = [
     categoria: "primavera",
   },
   {
-    id: 2,
     nombre: "Semillas de Chirivía",
     imagen: "../public/img/Semillas_de_chirivia.png",
     descripcion: "Un tubérculo de primavera primo hermano de la zanahoria.",
@@ -16,7 +14,6 @@ const productos = [
     categoria: "primavera",
   },
   {
-    id: 3,
     nombre: "Semillas de Coliflor",
     imagen: "../public/img/Semillas_de_coliflor.png",
     descripcion: "Valiosa, pero de crecimiento lento y de vuenos nutrientes.",
@@ -24,7 +21,6 @@ const productos = [
     categoria: "primavera",
   },
   {
-    id: 4,
     nombre: "Semillas de Fresa",
     imagen: "../public/img/Semillas_de_fresa.png",
     descripcion:
@@ -33,7 +29,6 @@ const productos = [
     categoria: "primavera",
   },
   {
-    id: 5,
     nombre: "Semillas de Café",
     imagen: "../public/img/Semillas_de_cafe.png",
     descripcion: "Plántalo en verano para tener un cafeto.",
@@ -41,7 +36,6 @@ const productos = [
     categoria: "primavera",
   },
   {
-    id: 6,
     nombre: "Brote de Patata",
     imagen: "../public/img/Semillas_de_patata.png",
     descripcion: "Un tubérculo cultivado en muchas zonas.",
@@ -49,7 +43,6 @@ const productos = [
     categoria: "primavera",
   },
   {
-    id: 7,
     nombre: "Bulbo de Tulipán",
     imagen: "../public/img/Semillas_de_tulipan.png",
     descripcion: "Tarda 6 días en producir una colorida flor.",
@@ -57,7 +50,6 @@ const productos = [
     categoria: "primavera",
   },
   {
-    id: 8,
     nombre: "Semillas de col rizada",
     imagen: "../public/img/Semillas_de_col.png",
     descripcion: "Sus hojas brillantes quedan genial en sopas y sofritos.",
@@ -65,7 +57,6 @@ const productos = [
     categoria: "primavera",
   },
   {
-    id: 9,
     nombre: "Allium azul",
     imagen: "../public/img/Semillas_de_allium.png",
     descripcion:
@@ -74,7 +65,6 @@ const productos = [
     categoria: "primavera",
   },
   {
-    id: 10,
     nombre: "Ruibarbo",
     imagen: "../public/img/Semillas_de_ruibarbo.png",
     descripcion:
@@ -83,7 +73,6 @@ const productos = [
     categoria: "primavera",
   },
   {
-    id: 11,
     nombre: "Semillas de Amapola",
     imagen: "../public/img/Semillas_de_amapola.png",
     descripcion:
@@ -92,7 +81,6 @@ const productos = [
     categoria: "verano",
   },
   {
-    id: 12,
     nombre: "Semillas de Arándano",
     imagen: "../public/img/Semillas_de_arandano.png",
     descripcion:
@@ -101,7 +89,6 @@ const productos = [
     categoria: "verano",
   },
   {
-    id: 13,
     nombre: "Semillas de Carambola",
     imagen: "../public/img/Semillas_de_carambola.png",
     descripcion:
@@ -110,7 +97,6 @@ const productos = [
     categoria: "verano",
   },
   {
-    id: 14,
     nombre: "Semillas de Chile",
     imagen: "../public/img/Semillas_de_chile.png",
     descripcion: "Pica como un demonio, pero tiene un toque de dulzura.",
@@ -118,7 +104,6 @@ const productos = [
     categoria: "verano",
   },
   {
-    id: 15,
     nombre: "Semillas de Girasol",
     imagen: "../public/img/Semillas_de_girasol.png",
     descripcion: "Hay un mito que dice que siempre gira buscando el sol.",
@@ -126,7 +111,6 @@ const productos = [
     categoria: "verano",
   },
   {
-    id: 16,
     nombre: "Semillas de Lentejuela",
     imagen: "../public/img/Semillas_de_lentejuela.png",
     descripcion:
@@ -135,7 +119,6 @@ const productos = [
     categoria: "verano",
   },
   {
-    id: 17,
     nombre: "Semillas de Lombarda",
     imagen: "../public/img/Semillas_de_lombarda.png",
     descripcion: "Se usa a menudo en ensaladas y chucrut.",
@@ -143,7 +126,6 @@ const productos = [
     categoria: "verano",
   },
   {
-    id: 18,
     nombre: "Semillas de Melón",
     imagen: "../public/img/Semillas_de_melon.png",
     descripcion: "Un capricho fresco y dulce de verano.",
@@ -151,7 +133,6 @@ const productos = [
     categoria: "verano",
   },
   {
-    id: 19,
     nombre: "Semillas de Alcachofa",
     imagen: "../public/img/Semillas_de_alcachofa.png",
     descripcion:
@@ -160,7 +141,6 @@ const productos = [
     categoria: "otoño",
   },
   {
-    id: 20,
     nombre: "Semillas de Amaranto",
     imagen: "../public/img/Semillas_de_amaranto.png",
     descripcion: "Un cereal lila cultivado por una antigua civilización.",
@@ -168,7 +148,6 @@ const productos = [
     categoria: "otoño",
   },
   {
-    id: 21,
     nombre: "Semillas de Invierno",
     imagen: "../public/img/Semillas_de_invierno.png",
     descripcion: "Un surtido de semillas silvestres de invierno.",

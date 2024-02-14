@@ -1,13 +1,16 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore"
+import { Firestore, getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyADy_7FTzG6TDoD8we4AeMHAVwhiieqG_g",
-  authDomain: "maldadmiaulactica.firebaseapp.com",
-  projectId: "maldadmiaulactica",
-  storageBucket: "maldadmiaulactica.appspot.com",
-  messagingSenderId: "458270951391",
-  appId: "1:458270951391:web:0a95965bc57f44373fe66a"
+  apiKey: "AIzaSyDCFFr8KfwJZHde3GMUY_c_u1tVETmbaDU",
+  authDomain: "maldad-miaulactica.firebaseapp.com",
+  projectId: "maldad-miaulactica",
+  storageBucket: "maldad-miaulactica.appspot.com",
+  messagingSenderId: "576937578240",
+  appId: "1:576937578240:web:1c20fa38dbc25d30fa2de5",
 };
 
 initializeApp(firebaseConfig);
+
+const db = getFirestore();
+export default db;

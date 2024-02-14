@@ -21,7 +21,15 @@ const ItemDetail = ({ producto }) => {
       <p className="descripcionDetallada">{producto.descripcion} </p>
       <p className="precioDetallado">${producto.precio} </p>
       {toggle ? (
+       <ul>
+        <li>
         <Link to="/Carrito">Ir al carrito</Link>
+        </li>
+        <li>
+        <Link to="/">Sigue comprando</Link>
+        </li>
+       </ul>
+        
       ) : (
         <ContadorProducto stock={10} añadirProducto={añadirProducto} />
       )}
