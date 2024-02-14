@@ -10,7 +10,7 @@ const CartWidget = () => {
   return (
     <Link to="/carrito" id="carrito">
       <img src="./public/img/Coffee.ico" alt="iconoCarrito" />
-      <p> {cantidadTotal()} </p>
+      <p> {cantidadTotal() != 0 ? cantidadTotal() :  ""} </p>
     </Link>
   );
 };

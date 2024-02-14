@@ -37,13 +37,18 @@ const CartProvider = ({ children }) => {
     return total
   }
 
+  const borrarProducto = (idProducto) => {
+    const productosFiltrados = carrito.filter((producto) => producto.id !== idProducto)
+    setCarrito(productosFiltrados)
+  }
+
   const borrarTodo = () => {
     setCarrito([])
   }
 
   return (
     <CartContext.Provider
-      value={{ carrito, añadirProductoCarrito,cantidadTotal, borrarTodo, precioTotal}}
+      value={{ carrito, añadirProductoCarrito,cantidadTotal, borrarTodo, precioTotal, borrarProducto}}
     >
       {children}
     </CartContext.Provider>
