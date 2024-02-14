@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 import { CartProvider } from "./components/context/CartContext";
 import Carrito from "./components/Carrito/Carrito";
-import RenderingCondicional from "./RenderingCondicional/RenderingCondicional";
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
             path="/detalle/:idProducto"
             element={<ItemDetailContainer />}
           />
-          <Route path="rendering" element={<RenderingCondicional/>} />
           <Route path="/carrito" element={<Carrito />} />
           <Route
             path="*"
