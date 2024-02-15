@@ -28,6 +28,15 @@ const FormularioCheckout = ({ datosForm, guardarDatosInput, enviarOrden }) => {
         onChange={guardarDatosInput}
       />
 
+      <label htmlFor="repetirEmail">Repite tu email</label>
+      <input
+        type="email"
+        id="repetirEmail"
+        name="repetirEmail"
+        value={datosForm.repetirEmail}
+        onChange={guardarDatosInput}
+      />
+
       <label htmlFor="direccion">Dirección</label>
       <input
         type="text"
