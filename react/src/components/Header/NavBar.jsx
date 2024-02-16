@@ -13,24 +13,26 @@ const NavBar = () => {
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand id="brand" to="">
-            <Link  className="navBarLink" to="/" >Maldad Miaulactica 🌌</Link>
+            <Link className="navBarLink" to="/">
+              Maldad Miaulactica 🌌
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="estaciones me-auto">
-              <Link  className="navBarLink"  to="/categoria/primavera">
+              <Link className="navBarLink" to="/categoria/primavera">
                 Primavera
               </Link>
-              <Link className="navBarLink"  to="/categoria/verano">
+              <Link className="navBarLink" to="/categoria/verano">
                 Verano
               </Link>
-              <Link className="navBarLink"  to="/categoria/otoño">
+              <Link className="navBarLink" to="/categoria/otoño">
                 Otoño
               </Link>
-              <Link className="navBarLink"  to="/categoria/invierno"> 
+              <Link className="navBarLink" to="/categoria/invierno">
                 Invierno
               </Link>
-                <CartWidget contador={"(1)"} />
+              <CartWidget contador={"(1)"} />
             </Nav>
           </Navbar.Collapse>
         </Container>

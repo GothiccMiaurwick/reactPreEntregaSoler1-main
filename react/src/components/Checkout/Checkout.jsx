@@ -29,9 +29,11 @@ const Checkot = () => {
       total: precioTotal(),
     };
 
-    if(datosForm.email !== datosForm.repetirEmail) {
-      alert("los campos en imail no son iguales, por favor ingrese la misma direccion de correo electronico") // cambiar esto
-      return
+    if (datosForm.email !== datosForm.repetirEmail) {
+      alert(
+        "los campos en imail no son iguales, por favor ingrese la misma direccion de correo electronico"
+      );
+      return;
     }
     const ordenesRef = collection(db, "ordenes");
     addDoc(ordenesRef, orden)

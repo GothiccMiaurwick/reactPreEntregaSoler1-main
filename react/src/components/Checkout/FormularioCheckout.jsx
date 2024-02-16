@@ -1,6 +1,8 @@
+import "./FormularioCheckout.css";
+
 const FormularioCheckout = ({ datosForm, guardarDatosInput, enviarOrden }) => {
   return (
-    <form onSubmit={enviarOrden}>
+    <form onSubmit={enviarOrden} className="formulario-checkout">
       <label htmlFor="nombre">Nombre</label>
       <input
         type="text"
