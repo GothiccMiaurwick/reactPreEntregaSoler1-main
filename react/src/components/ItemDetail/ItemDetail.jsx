@@ -15,18 +15,18 @@ const ItemDetail = ({ producto }) => {
     añadirProductoCarrito(productoCarrito);
   };
   return (
-    <div>
+    <div className="item-detail">
       <img className="imagenDetallada" src={producto.imagen} alt="" />
       <p className="nombreDetallado">{producto.nombre}</p>
       <p className="descripcionDetallada">{producto.descripcion} </p>
       <p className="precioDetallado">${producto.precio} </p>
       {toggle ? (
-        <ul>
+        <ul className="enlaces">
           <li>
-            <Link to="/Carrito">Ir al carrito</Link>
+            <Link to="/Carrito" className="link-carrito">Ir al carrito</Link>
           </li>
           <li>
-            <Link to="/">Sigue comprando</Link>
+            <Link to="/" className="link-seguir-comprando" >Sigue comprando</Link>
           </li>
         </ul>
       ) : (
