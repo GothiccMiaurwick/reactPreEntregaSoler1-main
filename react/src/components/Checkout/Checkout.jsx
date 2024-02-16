@@ -3,6 +3,7 @@ import FormularioCheckout from "./FormularioCheckout";
 import { CartContext } from "../context/CartContext";
 import { collection, addDoc } from "firebase/firestore";
 import db from "../../db/db";
+import Swal from 'sweetalert2'
 
 const Checkot = () => {
   const [datosForm, setDatosForm] = useState({
@@ -30,9 +31,11 @@ const Checkot = () => {
     };
 
     if (datosForm.email !== datosForm.repetirEmail) {
-      alert(
-        "los campos en imail no son iguales, por favor ingrese la misma direccion de correo electronico"
-      );
+      Swal.fire({
+        title: "Han crecido malezas en tu jardin!",
+        text: "Tienes que tener tanto Email como Repetir email iguales.",
+        icon: "error"
+    });
       return;
     }
     const ordenesRef = collection(db, "ordenes");

@@ -10,4 +10,4 @@ Este proyecto es un ecommerce de productos relacionados con el campo y está bas
 
 ## Dependencias
 
-`firebase` `react-router-dom`
+`firebase` `react-router-dom` `SweetAlert2`

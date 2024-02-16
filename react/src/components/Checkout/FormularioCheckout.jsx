@@ -1,6 +1,7 @@
 import "./FormularioCheckout.css";
 
 const FormularioCheckout = ({ datosForm, guardarDatosInput, enviarOrden }) => {
+
   return (
     <form onSubmit={enviarOrden} className="formulario-checkout">
       <label htmlFor="nombre">Nombre</label>
@@ -56,7 +57,6 @@ const FormularioCheckout = ({ datosForm, guardarDatosInput, enviarOrden }) => {
         value={datosForm.coodigo_postal}
         onChange={guardarDatosInput}
       />
-
       <button type="submit">Enviar orden</button>
     </form>
   );
