@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './ContadorProducto.css';
 
 const ContadorProducto = ({ stock, añadirProducto }) => {
   const [contador, setContador] = useState(1);
@@ -16,15 +17,15 @@ const ContadorProducto = ({ stock, añadirProducto }) => {
   };
   return (
     <div>
-      <button onClick={sumar}>+</button>
+      <button onClick={sumar} className="boton-sumar">+</button>
       <p>{contador}</p>
-      <button onClick={restar}>-</button>
-      <button
+      <button onClick={restar} className="boton-restar">-</button>
+      <button  className="boton-añadir"
         onClick={() => {
           añadirProducto(contador);
         }}
       >
-        Añádir al carrito
+        Añadir al carrito
       </button>
     </div>
   );
